@@ -6,7 +6,7 @@ const { Router } = require("express");
 const router = Router();
 
 //Route de la page d'accueil
-router.get("/homepage", (req, res) => {
+router.get("/", (req, res) => {
 	res.render("homepage");
 });
 
